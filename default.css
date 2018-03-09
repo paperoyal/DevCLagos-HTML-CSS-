@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ########################### */
+/*	  General HTML Tag Rules   */
+/* ########################### */
+
+body{
+	background-image: url(images/bg_body.jpg);
+	background-repeat: repeat-x;
+	background-color: #e4e4e4;
+	background-attachment:fixed;
+	background-position:top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align:center;
+	color:#81351e;
+	padding-top:2px;
+	padding-bottom:-15px;
+	margin-bottom:15px;
+}
+
+p {
+
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+hr {
+	
+}
+
+
+/* ################################# */
+/*	  General Template Class Rules   */
+/* ################################# */
+
+.wrapOverall {
+	width:987px;
+	margin:0px auto;
+
+}
+
+.wrapLinks {
+	
+}
+
+.wrapBuckets {
+	
+}
+
+.header {
+	background-image:url(images/bg_header.png);
+	background-repeat:no-repeat;
+	background-position: top center;
+	height:82px;
+	
+}
+
+
+.header img.logo {
+	float:left;
+	margin:15px 20px 25px 25px;
+}
+
+.navMain {
+	margin:28px 28px 28px 0px;
+	float:right;
+	
+}
+
+.content {
+	background-image:url(images/bg_middle.png);
+	background-repeat:no-repeat;
+	background-position: top center;
+	height:349px;
+	width:987px;
+	margin:0px 0px 0px 0px;
+}
+
+.wrapBuckets {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.bucketLeft {
+	width:240px;
+	float:left;
+}
+
+.bucketRight {
+	width:240px;
+	float:right;
+	margin:0px 0px 0px 9px;
+}
+
+.wrapBucketInnerLeft {
+	width:489px;
+	float:left;
+}
+
+.wrapBucketInnerRight {
+	width:489px;
+	float:right;
+}
+
+/* ############################# */
+/*	  General Navigation Rules   */
+/* ############################# */
+
+.navMain ul {
+	color:white;
+	margin:0px;
+	padding:0px;
+	
+}
+
+.navMain ul li {
+	margin:0px;
+	padding:0px 20px;
+	list-style:none;
+	display:inline;
+}
+
+.navMain ul li a {
+	margin:0px;
+	padding:0px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:15px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	
+}
+
+.navMain ul li a:hover {
+	text-decoration:underline;
+}
+
+.wrapLinks ul {
+	margin:3px 0px 0px 0px;
+	padding:0px;
+	text-align:center;
+}
+
+.wrapLinks ul li {
+	margin:-20px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	background-image:url(images/bg_button_middle.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	width:237px;
+	height:87px;
+	list-style:none;
+}
+
+.wrapLinks ul li a {
+	text-decoration:none;
+}
+
+.wrapLinks ul li a:hover {
+	
+}
+
+
+/* ################# */
+/*	  Bucket Rules   */
+/* ################# */
+
+.bucketHeader {
+	background-image:url(images/bg_bucket_header.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:62px;
+	margin:0px 0px 0px 0px;
+	padding:10px 0px 0px 20px;
+}
+
+.bucketDetails {
+	background-image:url(images/bg_bucket_body.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:281px;
+	margin:-20px 0px 0px 0px;
+	padding:0px;
+}
+
+.bucketDetails ul {
+	margin:10px 20px;
+	padding:15px 0px;
+}
+
+.bucketDetails ul li {
+	list-style:none;
+	color:#333333;
+	font-size:14px;
+	border-bottom:1px solid #81351e;
+	margin:0px 0px;
+	padding:8px 0px;
+}
+
+.bucketBottom p.cost {
+	font-size:25px;
+	font-weight:bold;
+	color:#81351e;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+}
+
+.bucketBottom {
+	text-align:center;
+}
+
+a img.bottom {
+	border:none;
+}
